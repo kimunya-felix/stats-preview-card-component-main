@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      height: 100%;
+      width: 100%;
+      background-color: hsl(233, 47%, 7%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    main{
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    .main{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+    }
+    .content_of_main{
+      display: flex;
+      direction: row;
+      background-color: hsl(244, 38%, 16%);
+      border-radius: 15px;
+      width: 70%;
+      /* border: 2px solid red; */
+    }
+    .row{
+      width: 50%;
+    }
+    .larger_text{
+      font-family: 'Inter', sans-serif;
+      font-weight: 400, 700;
+      font-size: 30px;
+      padding: 20px;
+    }
+    .smaller_text{
+      padding: 20px;
+    }
+    .number_text{
+      display: flex;
+      direction: row;
+      font-family: 'Lexend Deca', sans-serif;
+      padding: 20px;
+    }
+    .textdiv{
+      color: white;
+    }
+    
+    .imagediv{
+      border-radius: 15px;
+      /* background-color: yellow; */
+    }
+
+    .image {
+      border-radius: 15px;
+    }
+    .p_column{
+      width: 33.33%;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="main">
+      <div class="content_of_main">
+        <div class="textdiv row">
+          <div class="larger_text text">
+            Get <span style="color:purple">insights</span> that help your business grow.
+          </div>
+          <div class="smaller_text text">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+          </div>
+          <div class="number_text text">
+            <p class="p_column">10k+ <br> COMPANIES</p>
+            <p class="p_column">314 <br> TEMPLATES</p>
+            <p class="p_column">12m+ <br> QUERIES</p>
+          </div>
+        </div>
+        <div class="imagediv row">
+          <img class="image" src="images/image-header-desktop.jpg" alt="image-header-desktop.jpg" height="100%" width="100%">
+        </div>
+      </div>
+    </div>
+    
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
